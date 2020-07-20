@@ -68,9 +68,25 @@ hr {
 .portfolio img {
     widows: 300px;
     height: 300px;
-    margin: 60px;
+    margin: 40px;
+    margin-bottom: 20px;
     border-radius: 30px;
+    z-index: -1;
 }
+
+.github-profile {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    left: 35%;
+    bottom: 25%;
+    color: black;
+    background-color: lightgray;
+    padding: 30px;
+}
+
 .container .row {
     text-align: center;
 }
