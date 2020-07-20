@@ -2,6 +2,14 @@ body {
     background: linear-gradient(270deg, white, darkgray 80%) no-repeat;
     color: white;
 }
+
+.background-image {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
 #bio-picture {
     float: left;
     border: 4px solid black;
