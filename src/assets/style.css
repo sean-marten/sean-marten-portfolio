@@ -34,7 +34,7 @@ body {
     border-bottom: 4px solid black;
 }
 
-.main-header {
+.header {
     margin-left: 35px;
     margin-top: 20px;
 }
@@ -94,4 +94,20 @@ hr {
 .btn {
     margin-bottom: 30px;
     margin-left: 12px;
+}
+
+h3 {
+    clear: both;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.skills {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
 }
