@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Document</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Document</title>
 </head>
+
 <body>
-    <!-- Start of Nav Bar -->
-    <img class="background-image" src="./assets/pictures/coding-background.jpg" alt="Coding background"/>
+  <!-- Start of Nav Bar -->
+  <img class="background-image" src="./assets/pictures/coding-background.jpg" alt="Coding background" />
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand">Sean Marten</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -32,13 +34,33 @@
     </div>
   </nav>
   <!-- End of Nav Bar -->
-
+  
+  <form class="container col-8">
+    <div class="main-header">
+      <h1>Contact</h1>
+    </div>
+    <hr>
+    <div class="form-group">
+      <label for="name-input">Name</label>
+      <input type="text" class="form-control" id="name-input">
+    </div>
+    <div class="form-group">
+      <label for="email-input">Email address</label>
+      <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+    </div>
+    <div class="form-group bottom-input">
+      <label for="message-input">Message</label>
+      <textarea class="form-control" id="message-input" rows="14"></textarea>
+    </div>
+  </form>
 
   <footer>
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <div class="footer-copyright text-center py-3">
+      &copy 2020 Copyright
     </div>
     <!-- Copyright -->
   </footer>
 </body>
+
 </html>
