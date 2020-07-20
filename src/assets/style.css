@@ -22,6 +22,10 @@ body {
     font-size: 28px;
 }
 
+.text-content {
+    text-indent: 30px;
+}
+
 .nav-link {
     color: white !important;
 }
@@ -59,10 +63,6 @@ hr {
 
 .bottom-input {
     margin-bottom: 40px;
-}
-
-.linkedin-profile img {
-    
 }
 
 .portfolio img {
