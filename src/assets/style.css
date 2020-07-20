@@ -9,6 +9,19 @@ body {
     border-radius: 20px;
 }
 
+.navbar-brand {
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    border-bottom: 4px solid black;
+}
+
 .header-about-me {
     margin-left: 35px;
     margin-top: 20px;
