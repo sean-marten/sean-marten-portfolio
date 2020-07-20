@@ -97,17 +97,9 @@ hr {
 }
 
 h3 {
-    clear: both;
-}
-
-h3 {
     text-decoration: underline;
 }
 
 .skills {
     text-align: center;
-}
-
-ul {
-    list-style-type: none;
 }
