@@ -90,3 +90,8 @@ hr {
 .container .row {
     text-align: center;
 }
+
+.btn {
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
