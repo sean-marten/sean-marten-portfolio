@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-#bio-picture {
+.bio-picture {
     float: left;
     border: 4px solid black;
     margin: 20px;
