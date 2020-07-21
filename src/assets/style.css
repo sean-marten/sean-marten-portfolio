@@ -1,87 +1,130 @@
-/** External CSS Stylesheet **/
+/** 
+External CSS Stylesheet 
+**/
 
-/* ===All Content=== */
+/* 
+===All Content=== 
+*/
 
-/* Universal Styling */
+/* 
+--Universal Styling--
+*/
 .navbar-brand {
+  /* Typography */
   font-size: 28px;
 }
 
 .nav-link {
+  /* Typography */
   color: white !important;
 }
 
 .navbar {
+  /* Visual */
   border-bottom: 4px solid black;
 }
 
 .background-image {
-  position: fixed;
-  z-index: -1;
+  /* Box-model */
   width: 100%;
   height: 100%;
+
+  /* Positioning */
+  position: fixed;
+  z-index: -1;
 }
 
 .header {
+  /* Box-model */
   margin-left: 35px;
   margin-top: 20px;
 }
 
 hr {
-  background-color: black;
+  /* Box-model */
   padding: 1px;
+
+  /* Visual */
+  background-color: black;
 }
 
 .container {
-  border: 4px solid black;
+  /* Box-model */
   margin-top: 40px;
+
+  /* Typography */
+  color: white;
+
+  /* Visual */
+  border: 4px solid black;
   background-color: #343a40;
   border-radius: 30px;
-  color: white;
 }
 
 .footer-copyright {
+  /* Box-model */
   margin-top: 40px;
+
+  /* Visual */
   border-top: 4px solid black;
   background-color: #343a40;
 }
 
-/* Styling specific to index.html */
+/* 
+Styling specific to index.html 
+*/
 .bio-picture {
-  float: left;
-  border: 4px solid black;
+  /* Box-model */
   margin: 20px;
+
+  /* Positioning */
+  float: left;
+
+  /* Visual */
+  border: 4px solid black;
   border-radius: 20px;
 }
 
 h3 {
+  /* Typography */
   text-decoration: underline;
 }
 
-/* Styling specific to contact.html */
+/* 
+Styling specific to contact.html 
+*/
 .form-group {
+  /* Box-model */
   margin: 10px;
 }
 
 .bottom-input {
+  /* Box-model */
   margin-bottom: 40px;
 }
 
 .btn {
+  /* Box-model */
   margin-bottom: 30px;
   margin-left: 12px;
 }
 
 /* Styling specific to portfolio.html */
 .portfolio img {
+  /* Box-model */
   widows: 300px;
   height: 300px;
   margin: 40px;
-  margin-bottom: 20px;
-  border-radius: 30px;
+
+  /* Positioning */
   z-index: -1;
+  margin-bottom: 20px;
+
+  /* Visual */
+  border-radius: 30px;
 }
 
 .container .row {
+  /* Positioning */
   text-align: center;
 }
