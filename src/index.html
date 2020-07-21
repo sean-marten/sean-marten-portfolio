@@ -1,122 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Script links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link to custom styl sheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Developer: Sean Marten</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./assets/style.css" />
-  <title>Document</title>
-</head>
+  <!-- Main body -->
+  <body>
+    <!-- Background image -->
+    <img
+      class="background-image"
+      src="./assets/pictures/coding-background.jpg"
+      alt="Coding background"
+    />
 
-<!-- Main body -->
+    <!-- Start of Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand">Sean Marten</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Nav Bar -->
 
-<body>
-  <img class="background-image" src="./assets/pictures/coding-background.jpg" alt="Coding background" />
-  <!-- Start of Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand">Sean Marten</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End of Nav Bar -->
+    <!-- Main content -->
+    <section class="container col-8">
+      <!-- Main header -->
+      <h1 class="header">About Me</h1>
+      <hr />
+      <!-- Bio-picture -->
+      <img
+        id="bio-picture"
+        src="./assets/pictures/sean-marten.jpg"
+        alt="Professional Picture of Sean Marten"
+      />
+      <!-- Start of intro section -->
+      <h3>Introduction</h3>
+      <p>
+        I began my journey at UC Davis studying chemical engineering. After
+        graduating and beginning work in Automation for a company called
+        Zymergen, I found my passion in software engineering. I quickly became
+        the software expert on my team and have been the go-to person for
+        questions as well as mentoring. The software that I work on is full
+        stack application development, mostly with HTML and CSS/Bootstrap for
+        our front-end development and JavaScript, C# and Python for our back-end
+        development. With almost 2 years of experience in this position, I have
+        decided I want to expand my software experience by taking on new
+        challenges. In order to round out and sharpen some more of my software
+        tools, I decided to begin a certification program through UC Berkeley
+        for full stack web development. Along with this, I want to further
+        challenge myself by entering a new position where I can take some of my
+        application centric skills and apply them to web based software
+        engineering, providing a unique skillset and perspective to a future
+        employer.
+      </p>
+      <!-- End of intro section -->
+      <!-- Start of origin section -->
+      <h3>Where I'm From</h3>
+      <p>
+        My parents both immigrated to the United States from Canada before I was
+        born. They planted roots in Roseville, California, a suburb of
+        Sacramento. I later moved to Davis for college and soon after began to
+        move closer to the bay area as I progressed through jobs out of college.
+        I am now currently residing in Oakland, California, looking for the next
+        step in my journey.
+      </p>
+      <!-- End of origin section -->
+      <!-- Start of hobby section -->
+      <h3>What my favorite hobbies are</h3>
+      <p>
+        I have a few hobbies that I keep close and committed to. I love staying
+        active which includes lifting weights, running, hiking, playing a
+        variety of sports (mainly volleyball). I also really enjoy reading and
+        try to read at least one book a month. If you don't find me doing any of
+        those things, I am probably spending time with my friends (probably at
+        brunch over some mimosas).
+      </p>
+      <!-- End of hobby section -->
+      <!-- Start of dream section -->
+      <h3>What my dream job is</h3>
+      <p>
+        Realizing how much I love software engineering has shown me that my
+        career aspirations are set on being an extremely skilled software
+        engineer. The tell tale sign that you love doing something is when you
+        find yourself pulling out your laptop to do some coding at 11PM just for
+        the fun of it.
+      </p>
+      <!-- End of dream section -->
+      <!-- Start of current location section -->
+      <h3>Where I live</h3>
+      <p>
+        I currently live in Oakland, California, five minutes from Lake Merrit.
+        I have always loved the culture and diversity around the bay area and
+        planting roots in Oakland has been just another of the great life
+        decisions that I have made thus far.
+      </p>
+      <!-- End of current location section -->
+      <!-- Start of developer section -->
+      <h3>Why I want to be a web developer</h3>
+      <p>
+        If I haven't hammered it home enough by now, I truly love working with
+        software and collaborating with colleagues and friends on software that
+        can change the world to make it a better place. Having power over
+        software comes with a lot of responsibility, and my intentions are to
+        use that for the betterment of our global society.
+      </p>
+      <!-- End of developer section -->
+    </section>
+    <!-- End of main content -->
 
+    <!-- Start of footer -->
+    <footer>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright</div>
+      <!-- Copyright -->
+    </footer>
+    <!-- End of footer -->
 
-  <!-- Main content -->
-  <section class="container about-me col-8">
-    <!-- Main header -->
-    <h1 class="header">About Me</h1>
-    <hr>
-    <!-- Bio-picture -->
-    <img id="bio-picture" src="./assets/pictures/sean-marten.jpg" alt="Professional Picture of Sean Marten" />
-    <h3>Introduction</h3>
-    <p>
-      I began my journey at UC Davis studying chemical engineering. After graduating and beginning work in Automation
-      for a company called Zymergen, I found my passion in software engineering. I quickly became the software expert on
-      my team and have been the go-to person for questions as well as mentoring. The software that I work on is full
-      stack application development, mostly with HTML and CSS/Bootstrap for our front-end development and JavaScript, C#
-      and Python for our back-end development. With almost 2 years of experience in this position, I have decided I want
-      to expand my software experience by taking on new challenges. In order to round out and sharpen some more of my
-      software tools, I decided to begin a certification program through UC Berkeley for full stack web development.
-      Along with this, I want to further challenge myself by entering a new position where I can take some of my
-      application centric skills and apply them to web based software engineering, providing a unique skillset and
-      perspective to a future employer.
-    </p>
-    <h3>Where I'm From</h3>
-    <p>
-      My parents both immigrated to the United States from Canada before
-      I was born. They planted roots in Roseville, California, a suburb
-      of Sacramento. I later moved to Davis for college and soon after
-      began to move closer to the bay area as I progressed through jobs
-      out of college. I am now currently residing in Oakland, California,
-      looking for the next step in my journey.
-    </p>
-    <h3>What my favorite hobbies are</h3>
-    <p>
-      I have a few hobbies that I keep close and committed to. I love
-      staying active which includes lifting weights, running, hiking,
-      playing a variety of sports (mainly volleyball). I also really
-      enjoy reading and try to read at least one book a month. If you
-      don't find me doing any of those things, I am probably spending
-      time with my friends (probably at brunch over some mimosas).
-    </p>
-    <h3>What my dream job is</h3>
-    <p>
-      Realizing how much I love software engineering has shown me that
-      my career aspirations are set on being an extremely skilled software
-      engineer. The tell tale sign that you love doing something is when
-      you find yourself pulling out your laptop to do some coding at 11PM
-      just for the fun of it.
-    </p>
-    <h3>Where I live</h3>
-    <p>
-      I currently live in Oakland, California, five minutes from Lake
-      Merrit. I have always loved the culture and diversity around the
-      bay area and planting roots in Oakland has been just another of the
-      great life decisions that I have made thus far.
-    </p>
-    <h3>Why I want to be a web developer</h3>
-    <p>
-      If I haven't hammered it home enough by now, I truly love working
-      with software and collaborating with colleagues and friends on
-      software that can change the world to make it a better place.
-      Having power over software comes with a lot of responsibility, and
-      my intentions are to use that for the betterment of our global
-      society.
-    </p>
-  </section>
-
-  <footer>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright
-    </div>
-    <!-- Copyright -->
-  </footer>
-</body>
-
+  </body>
+  <!-- End of main body -->
 </html>
