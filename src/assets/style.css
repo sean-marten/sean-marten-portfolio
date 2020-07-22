@@ -9,6 +9,18 @@ External CSS Stylesheet
 /* 
 --Universal Styling--
 */
+html {
+  /* Box-model */
+  min-height: 100%;
+
+  /* Positioning */
+  position: relative;
+}
+body {
+  /* Box-model */
+  margin-bottom: 60px;
+}
+
 .navbar-brand {
   /* Typography */
   font-size: 28px;
@@ -61,13 +73,25 @@ hr {
   border-radius: 30px;
 }
 
-.footer-copyright {
+/*
+Sticky footer 
+ */
+.footer {
   /* Box-model */
-  margin-top: 40px;
+  width: 100%;
+  height: 60px;
+
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+  line-height: 60px;
+
+  /* Typography */
+  text-align: center;
 
   /* Visual */
-  border-top: 4px solid black;
   background-color: #343a40;
+  border-top: 4px solid black;
 }
 
 /* 
