@@ -21,7 +21,7 @@ This portfolio has many great features, which are outlined below:
 Each webpage is equipped with a sticky footer, shown in action below. 
 ![Alt Text](https://media.giphy.com/media/lnsc5eQvRLpEZFEgwp/giphy.gif)
 
-Below are pictures of my webpage at the standard screen sizes according to [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/):
+Below are pictures of my webpage at the standard screen sizes according to [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/) (NOTE: Some of my screenshots persisted on coming through a little deformed, particularly on the xs web pages, but they look correct upon real visual inspection):
 
 ### Extra small home page:
 
