@@ -5,6 +5,10 @@ This repository contains my professional portfolio. In it you will find a page d
 This portfolio has many great features, which are outlined below:
 1. Three separate web pages containing my biography, portfolio and a contact form, with a navbar that has links to each of these pages.
 2. A responsive layout that utilizes vertical margins on screen sizes larger than the extra small category, and no vertical margins on anything falling in the extra small category.
+3. Responsive images that resort and resize themselves depending on the screen size.
+4. No media queries.
+5. Semantic HTML.
+6. A sticky footer that only shows when there is enough room on the page, but appears below if the content pushed it down.
 
 ## Github links
 
