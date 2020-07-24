@@ -3,7 +3,7 @@ This repository contains my professional portfolio. In it you will find a page d
 
 ## Outline of Portfolio
 This portfolio has many great features, which are outlined below:
-1. Three separate web pages containing my biography, portfolio and a contact form, with a navbar that has links to each of these pages.
+1. Three separate web pages containing my biography, portfolio and a contact form, with a navbar that has links to each of these pages. The navbar collapses into a functional burger bar on xs screens.
 2. A responsive layout that utilizes vertical margins on screen sizes larger than the extra small category, and no vertical margins on anything falling in the extra small category.
 3. Responsive images that resort and resize themselves depending on the screen size.
 4. No media queries.
@@ -23,14 +23,26 @@ Each webpage is equipped with a sticky footer, shown in action below.
 
 Below are pictures of my webpage at the standard screen sizes according to [Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/):
 
-Extra small home page:
+### Extra small home page:
 
-Extra small contact page:
+![screenshot](./src/assets/pictures/home-xs.png)
 
-Extra small portfolio page:
+### Extra small portfolio page:
 
-Greater than extra small home page:
+![screenshot](./src/assets/pictures/portfolio-xs.png)
 
-Greater than extra small contact page:
+### Extra small contact page:
 
-Greater than extra small portfolio page:
+![screenshot](./src/assets/pictures/contact-xs.png)
+
+### Greater than extra small home page:
+
+![screenshot](./src/assets/pictures/home-lg.png)
+
+### Greater than extra small portfolio page:
+
+![screenshot](./src/assets/pictures/portfolio-lg.png)
+
+### Greater than extra small contact page:
+
+![screenshot](./src/assets/pictures/contact-lg.png)
