@@ -17,6 +17,11 @@ html {
   position: relative;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   /* Box-model */
   margin-bottom: 100px;
@@ -135,18 +140,15 @@ Styling specific to contact.html
 }
 
 /* Styling specific to portfolio.html */
-.portfolio img {
+.portfolio .img-fluid {
   /* Box-model */
-  widows: 300px;
-  height: 300px;
   margin: 40px;
 
   /* Positioning */
   z-index: -1;
-  margin-bottom: 20px;
 
   /* Visual */
-  border-radius: 30px;
+  border-radius: 35px;
 }
 
 .container .row {
