@@ -17,7 +17,7 @@ This portfolio has many great features, which are outlined below:
 
 [Portfolio Github Repository](https://github.com/sean-marten/sean-marten-portfolio)
 
-[Portfolio Webpage](https://sean-marten.github.io/sean-marten-portfolio/index.html)
+[Portfolio Webpage](https://sean-marten.github.io/sean-marten-portfolio)
 
 ## Webpage in action
 
